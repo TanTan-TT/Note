@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "watch": true,
+    "sourceMap": true,
+    "outDir": "./build/",
+    "jsx":"react",
+    "allowJs": true,
+    "alwaysStrict":true,
+    "importHelpers":true,
+    "module": "commonjs",
+    "lib": [
+      "es2015.promise",
+      "dom","es5","es2015.symbol","es2015.iterable",
+      "es2017",
+      "es2017.object"]
+  },
+  "files":[
+    "src/emop.d.ts"
+  ],
+  "include": [
+    "src/**/*",
+    "test/**/*",
+    "shell/**/*"
+  ]
+}

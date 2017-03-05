@@ -1,0 +1,33 @@
+{
+  "name": "note",
+  "version": "0.0.1",
+  "description": "A collection of Web controls based on Material-UI",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanTan-TT/Note.git"
+  },
+  "keywords": [
+    "React",
+    "Controls",
+    "Material-UI"
+  ],
+  "author": "Tan Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanTan-TT/Note/issues"
+  },
+  "homepage": "https://github.com/TanTan-TT/Note#readme",
+  "dependencies": {
+    "@types/react": "^15.0.14",
+    "material-ui": "^0.17.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "tslib": "^1.6.0",
+    "typescript": "^2.2.1"
+  }
+}
