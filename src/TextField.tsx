@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export interface ITextFieldProps  {
+interface ITextFieldProps  {
   valueChanged?: (value: string) => void
   title?: string
   value?: string

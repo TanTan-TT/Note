@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite the default settings
+{
+  // HTTP
+  // The proxy setting to use. If not set will be taken from the http_proxy and https_proxy environment variables
+  // "http.proxy": "http://101.231.121.17:80",
+  // "https.proxy": "http://101.231.121.17:80",
+  // Whether the proxy server certificate should be verified against the list of supplied CAs.
+  "http.proxyStrictSSL": false,
+  "editor.tabSize": 2,
+  "editor.rulers": [100],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "node_modules": false,
+    "dist": true,
+    "coverage": true,
+    "coverage.lcov": true,
+    "tsconfig.json": true,
+    "tslint.json": true,
+    "typings.json": false,
+    "typings": true,
+    ".gitignore": false
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
