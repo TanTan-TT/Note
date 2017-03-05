@@ -1,5 +1,5 @@
 {
-  "name": "note",
+  "name": "emop-note",
   "version": "0.0.1",
   "description": "A collection of Web controls based on Material-UI",
   "main": "index.ts",
